@@ -9,6 +9,7 @@ export * from './card';
 export * from './checkboxField';
 export * from './collection';
 export * from './datastore';
+export * from './dialog';
 export * from './divider';
 export * from './expander';
 export * from './field';
