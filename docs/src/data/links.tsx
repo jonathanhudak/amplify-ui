@@ -376,6 +376,7 @@ export const inputComponents: ComponentNavItem[] = [
     platforms: ['react'],
     icon: MdTouchApp,
   },
+  // put docs link here
 ].sort(sortByLabel);
 
 export const layoutComponents: ComponentNavItem[] = [

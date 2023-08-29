@@ -1,0 +1,17 @@
+import * as React from 'react';
+import type { Primitive, {{pascalCase name}}Props, ForwardRefPrimitive } from '../types';
+
+const {{pascalCase name}}Primitive: Primitive<{{pascalCase name}}Props, 'div'> = (props, ref) => {
+  return <div {...props} ref={ref} />;
+};
+
+type {{pascalCase name}}Type = ForwardRefPrimitive<{{pascalCase name}}Props, 'div'> & {};
+
+/**
+ * [📖 Docs](https://ui.docs.amplify.aws/react/components/{{name}})
+ */
+const {{pascalCase name}}: {{pascalCase name}}Type = Object.assign(React.forwardRef({{pascalCase name}}Primitive), {});
+
+{{pascalCase name}}.displayName = '{{pascalCase name}}';
+
+export { {{pascalCase name}} };

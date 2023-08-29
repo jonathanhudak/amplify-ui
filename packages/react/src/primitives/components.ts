@@ -42,3 +42,4 @@ export { ToggleButton } from './ToggleButton';
 export { ToggleButtonGroup } from './ToggleButtonGroup';
 export { View } from './View';
 export { VisuallyHidden } from './VisuallyHidden';
+// add primitive component here

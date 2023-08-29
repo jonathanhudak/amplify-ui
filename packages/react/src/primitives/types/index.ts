@@ -50,3 +50,4 @@ export * from './toggleButtonGroup';
 export * from './view';
 export * from './visuallyHidden';
 export * from './grid';
+// add primitive component types here

@@ -1,0 +1,7 @@
+  {
+    href: '/components/{{removeDashes name}}',
+    label: '{{pascalCase name}}',
+    body: `{{pascalCase name}} is a new component that needs documentation.`,
+    platforms: ['react'],
+    icon: MdNotes,
+  },

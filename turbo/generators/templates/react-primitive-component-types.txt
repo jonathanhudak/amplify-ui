@@ -1,0 +1,7 @@
+import { ElementType, PrimitiveProps } from './view';
+
+export type {{pascalCase name}}Props<Element extends ElementType = 'div'> =
+  PrimitiveProps<{}, Element> & {
+    isInNeedOfProps?: boolean;
+  };
+
