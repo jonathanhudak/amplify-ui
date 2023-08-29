@@ -268,6 +268,13 @@ export const feedbackComponents: ComponentNavItem[] = [
     platforms: ['react'],
     icon: MdRefresh,
   },
+  {
+    href: '/components/dialog',
+    label: 'Dialog',
+    body: `Dialog is a type of modal window that appears in front of app content to provide critical information or ask for a decision.`,
+    platforms: ['react'],
+    icon: MdNotes,
+  },
 ].sort(sortByLabel);
 
 export const inputComponents: ComponentNavItem[] = [

@@ -7,6 +7,7 @@ export { ButtonGroup } from './ButtonGroup';
 export { Card } from './Card';
 export { CheckboxField } from './CheckboxField';
 export { Collection } from './Collection';
+export { Dialog } from './Dialog';
 export { Divider } from './Divider';
 export { Expander, ExpanderItem } from './Expander';
 export { FieldGroupIcon, FieldGroupIconButton } from './FieldGroupIcon';
