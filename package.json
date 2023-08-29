@@ -37,7 +37,8 @@
     "version:hotfix": "yarn changeset && yarn bumpVersions && yarn angular build",
     "publish:hotfix": "yarn changeset publish --tag hotfix",
     "generateVersions": "node scripts/generateVersion",
-    "bumpVersions": "yarn changeset version && yarn generateVersions"
+    "bumpVersions": "yarn changeset version && yarn generateVersions",
+    "node:legacy": "NODE_OPTIONS=--openssl-legacy-provider"
   },
   "workspaces": {
     "packages": [

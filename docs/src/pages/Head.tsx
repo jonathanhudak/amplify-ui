@@ -22,11 +22,6 @@ export const Head = () => {
   const { title, metaTitle, description, metaDescription } =
     metaData[pathname]?.frontmatter ?? {};
 
-  console.log(
-    'metaData[pathname]?.frontmatter',
-    metaData[pathname]?.frontmatter
-  );
-
   if ((!description && !metaDescription) || (!title && !metaTitle)) {
     throw new Error(`Meta Info missing on ${filepath}`);
   }
